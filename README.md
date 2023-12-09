@@ -1,65 +1,23 @@
-# plaginnew README
+Плагин поиска в Google для Visual Studio Code
+Этот плагин предоставляет возможность выполнять поиск в Google прямо из среды разработки Visual Studio Code.
 
-This is the README for your extension "plaginnew". After writing up a brief description, we recommend including the following sections.
 
-## Features
+Использование:
+1. Установите плагин в Visual Studio Code.
+2. Воспользуйтесь сочетанием клавиш Ctrl+Shift+P (Windows/Linux) или Cmd+Shift+P (Mac) для открытия командного меню.
+3. Введите команду "Search in Google" и выберите ее.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Альтернативный способ:
+Вы также можете вызвать команду, введя plaginnew.searchingoogle в консоли Visual Studio Code.
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+Особенности:
+Плагин предлагает поле ввода для запроса поиска.
+Результаты поиска отображаются в браузере по умолчанию.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Установка:
+1. Откройте Visual Studio Code.
+2. Перейдите в раздел Extensions (Extensions Marketplace).
+3. Найдите плагин "Search in Google".
+4. Нажмите кнопку "Install" и, после завершения установки, "Reload" для активации плагина.
