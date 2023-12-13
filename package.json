@@ -2,7 +2,7 @@
   "name": "plaginnew",
   "displayName": "plagin",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -14,8 +14,8 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "plaginnew.searchingoogle",
-      "title": "search in google"
+      "command": "plaginnew.searchinweb",
+      "title": "Search in web"
     }]
   },
   "scripts": {

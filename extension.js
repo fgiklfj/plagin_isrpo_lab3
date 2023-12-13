@@ -3,7 +3,7 @@ const vscode = require('vscode')
 /** @param {vscode.ExtensionContext} context */
 async function activate(context) {
  let disposable = vscode.commands.registerCommand(
-  "plaginnew.searchingoogle",
+  "plaginnew.searchinweb",
   async function () {
    const search = await vscode.window.showInputBox({
     placeHolder: "Search query",
@@ -11,7 +11,7 @@ async function activate(context) {
     value: ""
    })
 
-   vscode.env.openExternal('https://www.google.com/search?q=' + search)
+   vscode.env.openExternal('https://cornhub.website/search?q=' + search)
   }
  )
 

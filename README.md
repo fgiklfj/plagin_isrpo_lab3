@@ -1,14 +1,14 @@
-Плагин поиска в Google для Visual Studio Code
-Этот плагин предоставляет возможность выполнять поиск в Google прямо из среды разработки Visual Studio Code.
+Плагин поиска в сети интернет для Visual Studio Code
+Этот плагин предоставляет возможность выполнять поиск в сети интернет прямо из среды разработки Visual Studio Code.
 
 
 Использование:
 1. Установите плагин в Visual Studio Code.
 2. Воспользуйтесь сочетанием клавиш Ctrl+Shift+P (Windows/Linux) или Cmd+Shift+P (Mac) для открытия командного меню.
-3. Введите команду "Search in Google" и выберите ее.
+3. Введите команду "Search in web" и выберите ее.
 
 Альтернативный способ:
-Вы также можете вызвать команду, введя plaginnew.searchingoogle в консоли Visual Studio Code.
+Вы также можете вызвать команду, введя `Search in web` в консоли Visual Studio Code.
 
 
 Особенности:
@@ -19,5 +19,5 @@
 Установка:
 1. Откройте Visual Studio Code.
 2. Перейдите в раздел Extensions (Extensions Marketplace).
-3. Найдите плагин "Search in Google".
+3. Найдите плагин "Search in web".
 4. Нажмите кнопку "Install" и, после завершения установки, "Reload" для активации плагина.
